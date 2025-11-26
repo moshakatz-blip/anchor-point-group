@@ -24,27 +24,6 @@ export default function AboutPage() {
     }
   ];
 
-  const teamMembers = [
-    {
-      name: 'Moshe',
-      role: 'Founder & CEO',
-      image: 'https://static.wixstatic.com/media/aa11aa_f609c4d77df8484dacf173e705d8553c~mv2.png?id=team-moshe',
-      bio: 'With over 15 years of experience in operations management, Moshe leads the vision of streamlining complex business operations.'
-    },
-    {
-      name: 'Operations Director',
-      role: 'Operations & Logistics',
-      image: 'https://static.wixstatic.com/media/aa11aa_7325a647275d4cae94b591c94289d2a7~mv2.png?id=team-operations',
-      bio: 'Expert in warehouse management and logistics coordination, ensuring every project runs smoothly from start to finish.'
-    },
-    {
-      name: 'Design Lead',
-      role: 'Layout & Design',
-      image: 'https://static.wixstatic.com/media/aa11aa_7f012ba9e82e4abc9a93a05a5f5164e8~mv2.png?id=team-design',
-      bio: 'Specializes in creating efficient retail and commercial spaces that maximize productivity and customer experience.'
-    }
-  ];
-
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -260,61 +239,6 @@ export default function AboutPage() {
                 </motion.div>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-24 bg-light-blue">
-        <div className="container mx-auto px-6 lg:px-12 max-w-[100rem]">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="font-heading text-4xl lg:text-5xl text-foreground mb-6">
-              Meet Our Team
-            </h2>
-            <p className="font-paragraph text-lg text-foreground/70 max-w-3xl mx-auto">
-              Experienced professionals dedicated to your operational success.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {teamMembers.map((member, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-              >
-                <Card className="bg-white shadow-lg overflow-hidden h-full">
-                  <div className="aspect-square overflow-hidden">
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      width={400}
-                      height={400}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <CardContent className="pt-6">
-                    <h3 className="font-heading text-2xl text-foreground mb-1">
-                      {member.name}
-                    </h3>
-                    <p className="font-paragraph text-primary font-medium mb-4">
-                      {member.role}
-                    </p>
-                    <p className="font-paragraph text-foreground/70">
-                      {member.bio}
-                    </p>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
           </div>
         </div>
       </section>
