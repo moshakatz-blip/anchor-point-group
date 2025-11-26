@@ -3,7 +3,7 @@ import { Link, Outlet, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Image } from '@/components/ui/image';
-import { Menu, X, Phone, Mail } from 'lucide-react';
+import { Menu, X, Phone, Mail, Linkedin, Calendar } from 'lucide-react';
 
 export default function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -224,6 +224,31 @@ export default function Layout() {
                 >
                   <Mail className="h-4 w-4" />
                   <span className="font-paragraph text-sm">moshe@anchorpointgrp.com</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Social & Scheduling */}
+            <div>
+              <h3 className="font-heading text-lg text-white mb-4">Connect</h3>
+              <div className="space-y-3">
+                <a 
+                  href="https://www.linkedin.com/company/anchorpointgrp" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors"
+                >
+                  <Linkedin className="h-4 w-4" />
+                  <span className="font-paragraph text-sm">LinkedIn</span>
+                </a>
+                <a 
+                  href="https://calendly.com/moshe-anchorpointgrp" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors"
+                >
+                  <Calendar className="h-4 w-4" />
+                  <span className="font-paragraph text-sm">Schedule Meeting</span>
                 </a>
               </div>
             </div>

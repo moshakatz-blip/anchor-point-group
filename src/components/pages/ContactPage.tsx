@@ -7,7 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Phone, Mail, MapPin, Clock, CheckCircle } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, CheckCircle, Linkedin, Calendar } from 'lucide-react';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -265,6 +265,34 @@ export default function ContactPage() {
                       <p className="font-paragraph text-foreground/70">
                         Nationwide service with local expertise in major metropolitan areas.
                       </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg">
+                      <Calendar className="h-6 w-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-heading text-lg text-foreground mb-1">Schedule a Meeting</h3>
+                      <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10 mt-2">
+                        <a href="https://calendly.com/moshe-anchorpointgrp" target="_blank" rel="noopener noreferrer">
+                          Book on Calendly
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-lg">
+                      <Linkedin className="h-6 w-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-heading text-lg text-foreground mb-1">Connect on LinkedIn</h3>
+                      <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10 mt-2">
+                        <a href="https://www.linkedin.com/company/anchorpointgrp" target="_blank" rel="noopener noreferrer">
+                          Visit LinkedIn
+                        </a>
+                      </Button>
                     </div>
                   </div>
                 </div>
