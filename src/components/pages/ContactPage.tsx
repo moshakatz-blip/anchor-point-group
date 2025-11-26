@@ -228,7 +228,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-heading text-lg text-foreground mb-1">Phone</h3>
-                      <p className="font-paragraph text-foreground/70">(347) 475-2238</p>
+                      <p className="font-paragraph text-foreground/70">347-675-2238</p>
                     </div>
                   </div>
 
@@ -238,7 +238,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-heading text-lg text-foreground mb-1">Email</h3>
-                      <p className="font-paragraph text-foreground/70">mail@anchorpointgroup.com</p>
+                      <p className="font-paragraph text-foreground/70">moshe@anchorpointgrp.com</p>
                     </div>
                   </div>
 
@@ -332,10 +332,10 @@ export default function ContactPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
-                <a href="tel:(347) 475-2238">Call Now: (347) 475-2238</a>
+                <a href="tel:347-675-2238">Call Now: 347-675-2238</a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-                <a href="mailto:mail@anchorpointgroup.com">Send Email</a>
+                <a href="mailto:moshe@anchorpointgrp.com">Send Email</a>
               </Button>
             </div>
           </motion.div>

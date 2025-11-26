@@ -68,11 +68,11 @@ export default function Layout() {
             {/* Desktop Contact Info */}
             <div className="hidden lg:flex items-center space-x-6">
               <a 
-                href="tel:(347) 475-2238" 
+                href="tel:347-675-2238" 
                 className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                <span className="font-paragraph text-sm">(347) 475-2238</span>
+                <span className="font-paragraph text-sm">347-675-2238</span>
               </a>
               <Button asChild size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground">
                 <Link to="/contact">Get Quote</Link>
@@ -112,18 +112,18 @@ export default function Layout() {
                 ))}
                 <div className="pt-4 border-t border-gray-200 space-y-3">
                   <a 
-                    href="tel:(347) 475-2238" 
+                    href="tel:347-675-2238" 
                     className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
                   >
                     <Phone className="h-4 w-4" />
-                    <span className="font-paragraph">(347) 475-2238</span>
+                    <span className="font-paragraph">347-675-2238</span>
                   </a>
                   <a 
-                    href="mailto:mail@anchorpointgroup.com" 
+                    href="mailto:moshe@anchorpointgrp.com" 
                     className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors"
                   >
                     <Mail className="h-4 w-4" />
-                    <span className="font-paragraph">mail@anchorpointgroup.com</span>
+                    <span className="font-paragraph">moshe@anchorpointgrp.com</span>
                   </a>
                   <Button asChild size="sm" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
                     <Link to="/contact">Get Quote</Link>
@@ -210,18 +210,18 @@ export default function Layout() {
               <h3 className="font-heading text-lg text-white mb-4">Contact</h3>
               <div className="space-y-3">
                 <a 
-                  href="tel:(347) 475-2238" 
+                  href="tel:347-675-2238" 
                   className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors"
                 >
                   <Phone className="h-4 w-4" />
-                  <span className="font-paragraph text-sm">(347) 475-2238</span>
+                  <span className="font-paragraph text-sm">347-675-2238</span>
                 </a>
                 <a 
-                  href="mailto:mail@anchorpointgroup.com" 
+                  href="mailto:moshe@anchorpointgrp.com" 
                   className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors"
                 >
                   <Mail className="h-4 w-4" />
-                  <span className="font-paragraph text-sm">mail@anchorpointgroup.com</span>
+                  <span className="font-paragraph text-sm">moshe@anchorpointgrp.com</span>
                 </a>
               </div>
             </div>
