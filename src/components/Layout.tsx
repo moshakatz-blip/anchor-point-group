@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
+import { Image } from '@/components/ui/image';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 
 export default function Layout() {
@@ -39,18 +40,14 @@ export default function Layout() {
         <div className="container mx-auto px-6 lg:px-12 max-w-[100rem]">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
-                <span className="text-white font-heading text-xl font-bold">A</span>
-              </div>
-              <div>
-                <div className="font-heading text-xl text-foreground font-bold">
-                  AnchorPoint
-                </div>
-                <div className="font-paragraph text-xs text-foreground/60 -mt-1">
-                  GROUP
-                </div>
-              </div>
+            <Link to="/" className="flex items-center">
+              <Image
+                src="https://static.wixstatic.com/media/aa11aa_c4eb7bccc33e46aa93df6d8be30841c8~mv2.jpg?id=ap-logo-header"
+                alt="AnchorPoint Business Development Logo"
+                width={180}
+                height={60}
+                className="h-12 w-auto"
+              />
             </Link>
 
             {/* Desktop Navigation */}
@@ -149,18 +146,14 @@ export default function Layout() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
-                  <span className="text-white font-heading text-xl font-bold">A</span>
-                </div>
-                <div>
-                  <div className="font-heading text-xl text-white font-bold">
-                    AnchorPoint
-                  </div>
-                  <div className="font-paragraph text-xs text-white/60 -mt-1">
-                    GROUP
-                  </div>
-                </div>
+              <div className="flex items-center">
+                <Image
+                  src="https://static.wixstatic.com/media/aa11aa_c4eb7bccc33e46aa93df6d8be30841c8~mv2.jpg?id=ap-logo-footer"
+                  alt="AnchorPoint Business Development Logo"
+                  width={140}
+                  height={50}
+                  className="h-10 w-auto"
+                />
               </div>
               <p className="font-paragraph text-white/80 text-sm">
                 Streamlining operations and delivering results for retail, commercial, 
