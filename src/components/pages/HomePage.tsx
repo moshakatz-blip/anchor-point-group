@@ -47,8 +47,8 @@ export default function HomePage() {
               className="relative"
             >
               <Image
-                src="https://static.wixstatic.com/media/aa11aa_1a0f72df4eba4032818e2452369ae8d7~mv2.jpg"
-                alt="3D illustration of a modern retail store with colorful design elements"
+                src="https://static.wixstatic.com/media/aa11aa_7f012ba9e82e4abc9a93a05a5f5164e8~mv2.png?id=hero-retail-store"
+                alt="Modern retail store interior with shelving, bright lighting, and professional layout design"
                 width={600}
                 height={600}
                 className="w-full h-auto rounded-lg shadow-lg"
@@ -192,8 +192,8 @@ export default function HomePage() {
               className="relative"
             >
               <Image
-                src="https://static.wixstatic.com/media/aa11aa_0db6d2864f594fe384b3c61c02846b1b~mv2.jpg"
-                alt="3D illustration of a conveyor belt with moving boxes representing logistics operations"
+                src="https://static.wixstatic.com/media/aa11aa_7325a647275d4cae94b591c94289d2a7~mv2.png?id=process-logistics"
+                alt="Logistics and warehouse operations with conveyor belt system and organized inventory management"
                 width={600}
                 height={400}
                 className="w-full h-auto rounded-lg shadow-lg"
@@ -215,8 +215,8 @@ export default function HomePage() {
               className="order-2 lg:order-1"
             >
               <Image
-                src="https://static.wixstatic.com/media/aa11aa_aa3e6019d62046c0a623498728bdcd38~mv2.jpg"
-                alt="3D illustration of computer monitor with gears representing operational workflows"
+                src="https://static.wixstatic.com/media/aa11aa_f609c4d77df8484dacf173e705d8553c~mv2.png?id=operations-workflow"
+                alt="Business operations workflow diagram with gears and process optimization visualization"
                 width={600}
                 height={400}
                 className="w-full h-auto rounded-lg shadow-lg"

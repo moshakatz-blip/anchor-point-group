@@ -89,8 +89,8 @@ export default function ServicesPage() {
               </div>
               <div>
                 <Image
-                  src="https://static.wixstatic.com/media/aa11aa_1a0f72df4eba4032818e2452369ae8d7~mv2.jpg"
-                  alt="3D illustration of a modern retail store with colorful design elements"
+                  src="https://static.wixstatic.com/media/aa11aa_7f012ba9e82e4abc9a93a05a5f5164e8~mv2.png?id=retail-services"
+                  alt="Modern retail store interior with shelving and professional layout design"
                   width={600}
                   height={400}
                   className="w-full h-auto rounded-lg shadow-lg"
@@ -111,8 +111,8 @@ export default function ServicesPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="order-2 lg:order-1">
                 <Image
-                  src="https://static.wixstatic.com/media/aa11aa_aa3e6019d62046c0a623498728bdcd38~mv2.jpg"
-                  alt="3D illustration of computer monitor with gears representing operational workflows"
+                  src="https://static.wixstatic.com/media/aa11aa_f609c4d77df8484dacf173e705d8553c~mv2.png?id=commercial-workflow"
+                  alt="Business operations workflow diagram with gears and process optimization"
                   width={600}
                   height={400}
                   className="w-full h-auto rounded-lg shadow-lg"
@@ -203,8 +203,8 @@ export default function ServicesPage() {
               </div>
               <div>
                 <Image
-                  src="https://static.wixstatic.com/media/aa11aa_ada7eb9ff939431f9a481b4303620693~mv2.jpg"
-                  alt="3D illustration of a forklift with boxes representing warehouse operations"
+                  src="https://static.wixstatic.com/media/aa11aa_916220e474204d35a33541d76754aa68~mv2.png?id=warehouse-forklift"
+                  alt="Warehouse forklift operations with stacked boxes and organized storage system"
                   width={600}
                   height={400}
                   className="w-full h-auto rounded-lg shadow-lg"

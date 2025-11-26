@@ -273,8 +273,8 @@ export default function ContactPage() {
               {/* Visual Element */}
               <div className="relative">
                 <Image
-                  src="https://static.wixstatic.com/media/aa11aa_2259d7dd2c3f4a59bfcba55a74957f01~mv2.jpg"
-                  alt="3D illustration of colorful building blocks representing structured operations"
+                  src="https://static.wixstatic.com/media/aa11aa_70b4e4f6fbf14722bf71dd2634b8bbc7~mv2.png?id=contact-blocks"
+                  alt="Colorful building blocks and structural elements representing business operations"
                   width={500}
                   height={400}
                   className="w-full h-auto rounded-lg shadow-lg"
