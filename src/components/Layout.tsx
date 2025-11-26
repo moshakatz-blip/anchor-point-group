@@ -42,9 +42,9 @@ export default function Layout() {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <Image
-                src="https://static.wixstatic.com/media/aa11aa_c4eb7bccc33e46aa93df6d8be30841c8~mv2.jpg?id=ap-logo-header"
+                src="https://static.wixstatic.com/media/aa11aa_9e4ea985c2fb4dd98769d3b1e1d8e863~mv2.jpg?id=ap-logo-header"
                 alt="AnchorPoint Business Development Logo"
-                width={180}
+                width={200}
                 height={60}
                 className="h-12 w-auto"
               />
@@ -148,9 +148,9 @@ export default function Layout() {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Image
-                  src="https://static.wixstatic.com/media/aa11aa_c4eb7bccc33e46aa93df6d8be30841c8~mv2.jpg?id=ap-logo-footer"
+                  src="https://static.wixstatic.com/media/aa11aa_9e4ea985c2fb4dd98769d3b1e1d8e863~mv2.jpg?id=ap-logo-footer"
                   alt="AnchorPoint Business Development Logo"
-                  width={140}
+                  width={160}
                   height={50}
                   className="h-10 w-auto"
                 />
