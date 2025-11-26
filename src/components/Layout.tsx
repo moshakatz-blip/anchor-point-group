@@ -27,6 +27,7 @@ export default function Layout() {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
+    { name: 'Client Success', href: '/client-success' },
     { name: 'Contact', href: '/contact' }
   ];
 

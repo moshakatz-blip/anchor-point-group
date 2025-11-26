@@ -4,6 +4,27 @@
  */
 
 /**
+ * Collection ID: clienttestimonials
+ * Interface for ClientTestimonials
+ */
+export interface ClientTestimonials {
+  _id: string;
+  _createdDate?: Date;
+  _updatedDate?: Date;
+  /** @wixFieldType text */
+  clientName?: string;
+  /** @wixFieldType text */
+  company?: string;
+  /** @wixFieldType text */
+  testimonialText?: string;
+  /** @wixFieldType number */
+  rating?: number;
+  /** @wixFieldType image */
+  clientImage?: string;
+}
+
+
+/**
  * Collection ID: servicecategories
  * Interface for ServiceCategories
  */
@@ -46,4 +67,25 @@ export interface Services {
   serviceImage?: string;
   /** @wixFieldType text */
   benefits?: string;
+}
+
+
+/**
+ * Collection ID: clienttestimonials
+ * Interface for Client Testimonials
+ */
+export interface ClientTestimonials {
+  _id: string;
+  _createdDate?: Date;
+  _updatedDate?: Date;
+  /** @wixFieldType text */
+  clientName?: string;
+  /** @wixFieldType text */
+  company?: string;
+  /** @wixFieldType text */
+  testimonialText?: string;
+  /** @wixFieldType number */
+  rating?: number;
+  /** @wixFieldType image */
+  clientImage?: string;
 }

@@ -7,6 +7,7 @@ import HomePage from '@/components/pages/HomePage';
 import ServicesPage from '@/components/pages/ServicesPage';
 import ContactPage from '@/components/pages/ContactPage';
 import AboutPage from '@/components/pages/AboutPage';
+import ClientSuccessPage from '@/components/pages/ClientSuccessPage';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <ContactPage />,
+      },
+      {
+        path: "client-success",
+        element: <ClientSuccessPage />,
       },
       {
         path: "*",
